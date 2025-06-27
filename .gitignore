@@ -1,0 +1,43 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+!logs/.gitkeep
+
+# Runtime files
+tmp/
+*.tmp
+
+# Maven
+target/
+.mvn/
+!**/src/main/**/mvn-wrapper.properties
+!**/src/main/**/mvnw
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+*.env
+application.properties
+application.yml
